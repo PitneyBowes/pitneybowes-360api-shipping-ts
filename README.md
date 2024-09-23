@@ -16,6 +16,7 @@ npm install @pitneybowes/360api-shipping@1.0.0 --save
 This typescript client can be used to consume APIs from either our **sandbox** or **production** environments.
 
 **sandbox**: `https://api-sandbox.sendpro360.pitneybowes.com`
+
 **production**: `https://api.sendpro360.pitneybowes.com`
 
 To use the API, generate a Bearer Token for the respective environment.

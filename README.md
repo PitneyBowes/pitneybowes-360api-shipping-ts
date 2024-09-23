@@ -1,14 +1,22 @@
-## @pitneybowes/360api-shipping@1.0.0
+## @pitneybowes/360api-shipping
 
 PitneyBowes API 360 typescript client.
 
 You must have a developer account with PitneyBowes to use our API. With a developer account you get a ClientID and Secret which can be used to generate Bearer Token for API authentication as explained below.
 
+### Pre-Requisite
+In the project root directory where you want to install the API 360 client, create a `.npmrc` file with following content
+
+```sh
+@pitneybowes:registry=https://npm.pkg.github.com
+```
+
+
 
 ### Install
 
 ```
-npm install @pitneybowes/360api-shipping@1.0.0 --save
+npm install @pitneybowes/360api-shipping --save
 ```
 
 ### Authentication

@@ -1,0 +1,38 @@
+{
+  "name": "@pitneybowes/360api-shipping",
+  "version": "1.0.0",
+  "description": "typescript client for @pitneybowes/360api-shipping",
+  "author": "Pitney Bowes",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PitneyBowes/pitneybowes-360api-shipping-ts.git"
+  },
+  "keywords": [
+    "fetch",
+    "typescript",
+    "openapi-client",
+    "openapi-generator"
+  ],
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "type": "commonjs",
+  "typings": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "dependencies": {
+    "whatwg-fetch": "^3.0.0",
+    "es6-promise": "^4.2.4",
+    "url-parse": "^1.4.3"
+  },
+  "devDependencies": {
+    "typescript": "^4.0",
+    "@types/node": "^22.5.5",
+    "@types/url-parse": "1.4.4"
+  },
+  "publishConfig":{
+    "registry":"https://npm.pkg.github.com",
+    "access":"public"
+  }
+}
